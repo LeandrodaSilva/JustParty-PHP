@@ -10,4 +10,11 @@ use Illuminate\Routing\Controller as BaseController;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+
+    function login() {
+        $tittle = "Login";
+        return view('login', [
+            'tittle' => $tittle
+        ]);
+    }
 }
