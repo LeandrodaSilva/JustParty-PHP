@@ -12,7 +12,7 @@
     </head>
     <body>
         @section('sidebar')
-            <header class="form-group">
+            <header class="form-group" style="padding: 15px 50px">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
                     <a class="navbar-brand" href="/">
                         <img src="images/logo.f90eb6b0.png" height="30" alt="">
