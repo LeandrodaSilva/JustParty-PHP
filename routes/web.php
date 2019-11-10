@@ -11,6 +11,19 @@
 |
 */
 
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+Route::get('/evento', function () {
+    return view('evento');
+});
+
+//Route::get('/', ['uses' => 'Controller@home']);
+
+Route::get('/login', ['uses' => 'Controller@login']);
+
