@@ -9,6 +9,33 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
               rel="stylesheet">
         <title>JustParty - @yield('title')</title>
+        <style>
+
+            body {
+                margin: 0;
+                width: 100%;
+                height: 100vh;
+                font-family: "Exo", sans-serif;
+                color: #fff;
+                /*background: linear-gradient(91deg, #8c00cc, #2e00e4, #00e4b4);*/
+                background: linear-gradient(90deg, rgb(113, 89, 193), #2600c1,rgb(171, 89, 193));
+                background-size: 200% 200%;
+                animation: gradientBG 30s ease infinite;
+            }
+
+            @keyframes gradientBG {
+                0% {
+                    background-position: 87% 0;
+                }
+                50% {
+                    background-position: 14% 100%;
+                }
+                100% {
+                    background-position: 87% 0;
+                }
+            }
+
+        </style>
     </head>
     <body>
         @section('sidebar')

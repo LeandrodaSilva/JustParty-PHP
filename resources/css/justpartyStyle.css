@@ -1,8 +1,0 @@
-html, body {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 200; !important;
-    background: linear-gradient(-90deg, rgb(113, 89, 193), rgb(171, 89, 193));
-}
-header{
-    padding-top: 20px;
-}

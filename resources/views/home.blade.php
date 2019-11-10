@@ -10,7 +10,7 @@
 @endsection
 
 @section('content')
-    <div class="form-group">
+    <div class="form-group text-dark">
         <div class="card" style="width: 18rem;">
             <img src="tmp/uploads/9ac8caa45cb4d65df701c16ced7a0464.jpg" class="card-img-top" alt="...">
             <div class="card-body">
