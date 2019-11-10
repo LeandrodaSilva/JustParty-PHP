@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/login', ['uses' => 'Controller@login']);
+
+Route::post('/login', ['uses' => 'api\DogController@store']);

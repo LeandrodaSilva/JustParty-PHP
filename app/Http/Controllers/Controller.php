@@ -13,8 +13,10 @@ class Controller extends BaseController
 
     function login() {
         $tittle = "Login";
+        $h1 = "Tela de Login";
         return view('login', [
-            'tittle' => $tittle
+            'tittle' => $tittle,
+            'h1' => $h1
         ]);
     }
 }
