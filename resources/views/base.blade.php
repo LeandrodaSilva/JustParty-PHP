@@ -18,9 +18,9 @@
                 font-family: "Exo", sans-serif;
                 color: #fff;
                 /*background: linear-gradient(91deg, #8c00cc, #2e00e4, #00e4b4);*/
-                background: linear-gradient(90deg, rgb(113, 89, 193), #2600c1,rgb(171, 89, 193));
-                background-size: 200% 200%;
-                animation: gradientBG 30s ease infinite;
+                background: linear-gradient(90deg, rgb(113, 89, 193),rgb(171, 89, 193));
+                background-size: 300% 300%;
+                animation: gradientBG 20s ease infinite;
             }
 
             @keyframes gradientBG {
