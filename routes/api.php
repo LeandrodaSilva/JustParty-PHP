@@ -1,6 +1,6 @@
 <?php
 
-//use Illuminate\Http\Request;
+use Illuminate\Http\Request;
 //
 ///*
 //|--------------------------------------------------------------------------
@@ -25,3 +25,9 @@
 use Illuminate\Support\Facades\Route;
 
 Route::apiResource('dogs', 'api\DogController');
+Route::get('/login', function (Request $request){
+    return [
+        'usarname' => 'Álvaro YmaGay',
+        'password' => 'FullStack DevOps'
+    ];
+});
