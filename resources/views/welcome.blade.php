@@ -12,19 +12,9 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
               rel="stylesheet">
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                background: linear-gradient(-90deg, rgb(113, 89, 193), rgb(171, 89, 193));
-            }
-            header{
-                padding-top: 20px;
-            }
-        </style>
+
     </head>
-    <body class="container col-12" style="padding: 0 0;">
+    <body class="container-fluid">
     <header class="form-group">
             <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
                 <a class="navbar-brand" href="#">
@@ -80,15 +70,5 @@
         </header>
 
         <script src="{{ mix('js/app.js') }}"></script>
-        <script>
-            let btnSearch = $('#btn-search');
-
-            btnSearch.click(() => click());
-            function click() {
-                alert('teste');
-            }
-
-
-        </script>
     </body>
 </html>
